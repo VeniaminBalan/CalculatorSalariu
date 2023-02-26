@@ -311,6 +311,8 @@
             this.Controls.Add(this.textLabel_SBrut);
             this.Controls.Add(this.CalculatorLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(628, 569);
+            this.MinimumSize = new System.Drawing.Size(628, 569);
             this.Name = "Form1";
             this.Text = "Calculator Salariu";
             this.Load += new System.EventHandler(this.Form1_Load);

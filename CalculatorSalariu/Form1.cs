@@ -49,6 +49,11 @@ namespace CalculatorSalariu
             {
                 IS_procent = 10;
                 Is = Sbi / IS_procent; // cota de impozitare
+                if (Is < 0) 
+                {
+                    Is = 0;
+                    IS_procent = 0;
+                }
             }
 
             float sNet = Sdpc - Is;
